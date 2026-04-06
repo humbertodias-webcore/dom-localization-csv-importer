@@ -98,7 +98,13 @@ From the project root, run:
 mvn package
 ```
 
-This creates a shaded executable JAR with the main class `com.bhg.LocalizationCsvImporter`.
+This creates a shaded executable JAR with the main class `com.bhg.localization.LocCsvImporter`.
+
+## Create `localizationdb`
+
+```shell
+mysql -u gloops -p -h 127.0.0.1 < localizationdb.sql
+````
 
 ## Usage
 
