@@ -134,3 +134,4 @@ java -jar target/localization-csv-importer-1.0-SNAPSHOT.jar csv/loc_en-us_8000_c
 - The application uses OpenCSV for reading CSV files.
 - It inserts unique strings into `unique_strings` and mapping records into `base_loc`.
 - If a `base_loc` row for the same `locID` and language already exists, it is skipped.
+- To retrieve the locID on admin-tool. Access http://localhost:8080/snc-admin/admin/system_switches and enable Disable Admin Localization
